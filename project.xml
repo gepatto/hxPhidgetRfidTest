@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="PhidgetRfidTest" package="nl.gepatto.phidgetrfidtest" version="1.0.0" company="Gepatto Interactive Media" />
+	<app main="Main" path="Export" file="PhidgetRfidTest" />
+	
+	<source path="Source" />
+	
+	<haxelib name="openfl" />
+	<haxelib name="actuate" />
+	<haxelib name="hxPiPhidgetRfid" />
+	
+	<assets path="Assets/fonts" rename="fonts" include="*.ttf|*.otf"/>
+	<assets path="Assets/sounds" rename="sounds">
+		<sound path="4.wav" id="plonk" />
+	</assets>
+	<assets path="Assets" rename="assets" />
+	
+</project>
